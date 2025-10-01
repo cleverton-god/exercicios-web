@@ -1,0 +1,30 @@
+body {
+    background-color: yellowgreen;
+}
+
+h1 {
+    background-color: white;
+    font-family: "caveat";
+    font-weight: 400;
+    text-align: center;
+}
+
+p{
+
+}
+
+#PrimeiroParagrafo {
+    background-color: green;
+}
+
+.Paragrafo {
+    background-color: yellow;
+}
+
+p[draggable="true"] {
+    background-color: gray;
+}
+
+p[draggable="false"] {
+    background-color:cyan;
+}
