@@ -1,0 +1,21 @@
+p {
+    color: seagreen;
+}
+.texto-um, .texto-dois {
+    color: pink;
+}
+.box .texto-um {
+    color: black;
+}
+
+.texto-dois {
+    color: blue;
+}
+
+
+#div1 {
+    color: red;
+}
+#div2 {
+    color: blue;
+}
