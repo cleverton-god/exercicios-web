@@ -1,0 +1,23 @@
+#outer-box {
+    border: 10px solid darkmagenta;
+  }
+  
+  .box {
+    background-color: blue;
+    padding: 5px;
+  }
+  
+  p {
+    color: yellow;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .inner-box {
+    background-color: red;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
