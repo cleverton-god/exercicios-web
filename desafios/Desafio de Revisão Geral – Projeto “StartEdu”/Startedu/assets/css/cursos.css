@@ -1,0 +1,111 @@
+/* ===== SEÇÃO CURSOS ===== */
+.cursos {
+    text-align: center;
+    padding: 80px 40px;
+}
+
+.cursos h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-shadow: 0 0 15px rgba(96, 165, 250, 0.7);
+}
+
+/* ===== GRADE DE CURSOS ===== */
+.grade-cursos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+/* ===== CARD DE CURSO ===== */
+.card-curso {
+    background-color: #1E293B;
+    border: 3px solid #334155;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card-curso:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #60A5FA;
+    border-color: #3B82F6;
+}
+
+.card-curso img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-curso img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(96, 165, 250, 0.6);
+}
+
+.card-curso h3 {
+    margin-bottom: 10px;
+}
+
+.card-curso p {
+    font-size: 1rem;
+    color: #E2E8F0;
+    margin-bottom: 15px;
+}
+
+.card-curso a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3B82F6;
+    color: #F1F5F9;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card-curso a:hover {
+    background-color: #60A5FA;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #60A5FA;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+
+/* Tablets / notebooks pequenos */
+@media (max-width: 1024px) {
+    .cursos {
+        padding: 60px 20px;
+    }
+
+    .cursos h2 {
+        font-size: 2.5rem;
+    }
+
+    .grade-cursos {
+        gap: 25px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+    .cursos {
+        padding: 40px 15px;
+    }
+
+    .cursos h2 {
+        font-size: 2rem;
+    }
+
+    .card-curso p {
+        font-size: 0.95rem;
+    }
+
+    .card-curso a {
+        padding: 8px 18px;
+        font-size: 0.9rem;
+    }
+}

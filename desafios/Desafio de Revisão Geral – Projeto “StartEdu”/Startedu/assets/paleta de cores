@@ -1,0 +1,9 @@
+| Elemento              | Descrição            | Código    |
+| --------------------- | -------------------- | --------- |
+| Fundo principal       | Cinza-azulado escuro | `#0F172A` |
+| Fundo de seções/cards | Cinza médio          | `#1E293B` |
+| Destaques / Botões    | Azul vibrante        | `#3B82F6` |
+| Hover / Acentos       | Azul-claro neon      | `#60A5FA` |
+| Títulos / Ícones      | Branco gelo          | `#F1F5F9` |
+| Texto principal       | Cinza-claro          | `#E2E8F0` |
+| Bordas / Linhas sutis | Cinza-azulado leve   | `#334155` |
