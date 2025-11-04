@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-    padding: 15px 40px;
+    padding: 14px 40px;
     border-bottom: 3px solid #334155; 
 }
 
@@ -24,14 +24,15 @@ a {
     margin: 10px;
     color: white;
 }
+
 a:hover {
     color: red;
 }
 
 .banner a {
+    
     padding: 10px;
     border: 3px solid;
-    align-self: center;
 }
 
 section {
@@ -40,6 +41,7 @@ section {
     background-color: darkblue;
     border-radius: 30px;
 }
+
 
 footer {
     text-align: center;
@@ -54,9 +56,8 @@ footer {
     margin: 8px;
 }
 .produto {
-    padding: 8px;
+    padding: 20px;
     border: 3px solid;
-
 }
 
 @media (max-width: 1024px){
@@ -68,5 +69,11 @@ footer {
 @media (max-width: 600px) {
     .produtos {
         grid-template-columns: 1fr;
+    }
+    section {
+        margin: 20px;
+        padding: 10px;
+        background-color: darkblue;
+        border-radius: 30px;
     }
 }
