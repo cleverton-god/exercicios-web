@@ -4,6 +4,7 @@ body {
     padding: 30px;
     color: white;
     margin: 0;
+    font-family: sans-serif;
 }
 header {
     display: flex;
@@ -15,6 +16,7 @@ header {
 .logo{
     height: 12vh;
     width: auto;
+    border-radius: 30px;
 }
 a {
     text-decoration: none;
@@ -50,6 +52,11 @@ footer {
 .produto {
     padding: 20px;
     border: 3px solid;
+}
+.produto img {
+    width: 200px;
+    border-radius: 8px;
+    margin-top: 10px;
 }
 .form-contato {
     display: flex;
