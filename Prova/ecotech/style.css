@@ -9,6 +9,7 @@ body {
 header {
     background-color: darkblue;
     display: flex;
+    
     justify-content: space-between; 
     align-items: center; 
     padding: 14px 40px;
@@ -145,5 +146,8 @@ input:hover,button:hover,textarea:hover {
         margin: 20px;
         padding: 10px;
         border-radius: 30px;
+    }
+    header a{
+        display: flex; 
     }
 }
