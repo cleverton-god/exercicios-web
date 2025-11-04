@@ -5,7 +5,6 @@ body {
     color: white;
     margin: 0;
 }
-
 header {
     display: flex;
     justify-content: space-between; 
@@ -13,18 +12,15 @@ header {
     padding: 14px 40px;
     border-bottom: 3px solid #334155; 
 }
-
 .logo{
     height: 12vh;
     width: auto;
 }
-
 a {
     text-decoration: none;
     margin: 10px;
     color: white;
 }
-
 a:hover {
     color: red;
 }
@@ -34,21 +30,17 @@ a:hover {
     padding: 10px;
     border: 3px solid;
 }
-
 section {
     margin: 50px;
     padding: 50px;
     background-color: darkblue;
     border-radius: 30px;
 }
-
-
 footer {
     text-align: center;
     width: 100%;
     padding: 3px;
 }
-
 .produtos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -58,6 +50,22 @@ footer {
 .produto {
     padding: 20px;
     border: 3px solid;
+}
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,button,textarea {
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+input:hover,button:hover,textarea:hover {
+    color: red;
 }
 
 @media (max-width: 1024px){
