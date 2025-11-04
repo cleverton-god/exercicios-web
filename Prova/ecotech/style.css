@@ -18,6 +18,9 @@ header {
     width: auto;
     border-radius: 30px;
 }
+.logo:hover {
+    box-shadow: 0 0 15px red;
+}
 a {
     text-decoration: none;
     margin: 10px;
@@ -26,17 +29,24 @@ a {
 a:hover {
     color: red;
 }
-
+.banner {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.banner h1 {
+    text-align: center;
+}
 .banner a {
-    
+    text-align: center;
     padding: 10px;
     border: 3px solid;
+    border-radius: 20px;
 }
-section {
-    margin: 50px;
-    padding: 50px;
-    background-color: darkblue;
-    border-radius: 30px;
+.sobre {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
 }
 footer {
     text-align: center;
@@ -50,20 +60,32 @@ footer {
     margin: 8px;
 }
 .produto {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     border: 3px solid;
+    justify-content: center;
+    align-items: center;
 }
 .produto img {
-    width: 200px;
+    width: 50%;
     border-radius: 8px;
     margin-top: 10px;
+}
+.produto img:hover {
+    box-shadow: 0 0 35px red;
+}
+.Nossos.Produtos h1 {
+    text-align: center;
 }
 .form-contato {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-
+.contato h2{
+    text-align: center;
+}
 input,button,textarea {
     padding: 10px;
     margin: 10px;
@@ -79,9 +101,15 @@ input:hover,button:hover,textarea:hover {
     .produtos {
         grid-template-columns: 1fr 1fr;
     }
+    section {
+        margin: 20px;
+        padding: 10px;
+        background-color: darkblue;
+        border-radius: 30px;
+    }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .produtos {
         grid-template-columns: 1fr;
     }
